@@ -5,6 +5,7 @@
 FACTEURS_VERS_MG_DL = {
     "mg/dL": 1.0,
     "mmol/L": 18.016,
+    "g/L" : 100.0, # ajout de l'unité g/L au dictionnaire 1 g/L = 100 mg/dL
 }
 
 
