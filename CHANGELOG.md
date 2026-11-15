@@ -5,6 +5,8 @@ numéros de version selon le [versionnage sémantique](https://semver.org/lang/f
 
 ## [Non publié]
 
+- Changement de l'unité g/L pour la conversion des glycémies en mg/dL 
+
 ### Ajouté
 
 ## [0.1.0] - 2026-11-02

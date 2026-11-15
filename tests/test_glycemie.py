@@ -11,6 +11,10 @@ def test_mmol_vers_mg_dl():
     assert convertir_en_mg_dl(7.0, "mmol/L") == 126.1
 
 
+def test_g_l_vers_mg_dl():
+    assert convertir_en_mg_dl(1.26, "g/L") == 126.0 # ajout du test g/L vers mg/dL
+
+
 def test_unite_inconnue():
     with pytest.raises(ValueError):
         convertir_en_mg_dl(1.1, "unités")
